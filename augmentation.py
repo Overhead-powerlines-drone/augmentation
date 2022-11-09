@@ -8,7 +8,7 @@ parser.add_argument('--width', default=256, type=int, help='width of the input i
 parser.add_argument('--height', default=256, type=int, help='height of the input image')
 parser.add_argument('--num', default=10, type=int, help='number of augmentation per image')
 parser.add_argument('--input', default='input/', type=str, help='input directory that contains images')
-parser.add_argument('--output', default='output', type=str, help='input directory that contains images')
+parser.add_argument('--output', default='output/', type=str, help='input directory that contains images')
 
 args = parser.parse_args()
 
